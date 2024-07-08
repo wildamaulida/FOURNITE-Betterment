@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1290.0" style="-fx-background-color: #005335;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettermentfix.Tracking3CompanyController">
+    <children>
+      <Text fx:id="textNamaBisnis" fill="WHITE" layoutX="31.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Smart Thermostat - FourGroup" wrappingWidth="377.3134460449219">
+         <font>
+            <Font name="Calibri Bold Italic" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="550.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tracking" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="45.0" />
+         </font>
+      </Text>
+      <Pane layoutX="981.0" layoutY="194.0" prefHeight="57.0" prefWidth="271.0" style="-fx-background-color: ffffff; -fx-background-radius: 5px;">
+         <children>
+            <Text layoutX="90.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="90.14999389648438">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+            <Text fill="#005335" layoutX="100.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pemasukan">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Text>
+            <TextField fx:id="nilaiField" alignment="CENTER" layoutX="63.0" layoutY="27.0" promptText="Nominal" style="-fx-background-color: #d9d9d9;" />
+         </children>
+      </Pane>
+      <Pane layoutX="981.0" layoutY="121.0" prefHeight="57.0" prefWidth="271.0" style="-fx-background-color: ffffff; -fx-background-radius: 5px;">
+         <children>
+            <Text fill="#005335" layoutX="106.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Dana">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Text>
+            <Pane layoutX="63.0" layoutY="27.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: d9d9d9; -fx-background-radius: 5px;" />
+            <Text layoutX="83.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp121.500.000,-" wrappingWidth="118.4693603515625">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <LineChart fx:id="lineChart" layoutX="289.0" layoutY="78.0" prefHeight="253.0" prefWidth="637.0" style="-fx-background-color: ffffff; -fx-background-radius: 5px;">
+        <xAxis>
+          <CategoryAxis prefWidth="315.0" side="BOTTOM" tickLabelFill="#005335" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" tickLabelFill="#33a179" upperBound="5.5E7" />
+        </yAxis>
+      </LineChart>
+      <Text fill="WHITE" layoutX="31.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi Bisnis" wrappingWidth="126.8033676147461">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="textDeskripsi" fill="WHITE" layoutX="30.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Smart Thermostat adalah termostat pintar yang dirancang untuk meningkatkan efisiensi energi rumah dengan memanfaatkan teknologi canggih dan sensor tambahan. Produk ini memungkinkan pengguna untuk mengontrol suhu di seluruh rumah mereka secara efisien melalui aplikasi ponsel atau perintah suara, sehingga menghasilkan penghematan biaya energi yang signifikan dan kenyamanan yang lebih besar." textAlignment="JUSTIFY" wrappingWidth="1223.3333947351562">
+         <font>
+            <Font name="Calibri Italic" size="23.0" />
+         </font>
+      </Text>
+      <TableView fx:id="investasiTableView" layoutX="36.0" layoutY="78.0" prefHeight="253.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="tanggalInvestasiColumn" prefWidth="96.66668319702148" text="Tanggal" />
+            <TableColumn fx:id="nominalInvestasiColumn" prefWidth="100.6666259765625" text="Nominal" />
+        </columns>
+      </TableView>
+      <Pane layoutX="981.0" layoutY="267.0" prefHeight="57.0" prefWidth="271.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5px;">
+         <children>
+            <Text fill="#005335" layoutX="95.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kekurangan">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Text>
+            <Label fx:id="textPengeluaran" alignment="CENTER" contentDisplay="CENTER" layoutX="63.0" layoutY="27.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #d9d9d9;" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="981.0" layoutY="340.0" mnemonicParsing="false" onAction="#addData" prefHeight="25.0" prefWidth="66.0" text="Tambah">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="1084.0" layoutY="340.0" mnemonicParsing="false" onAction="#simpanDataChart" prefHeight="25.0" prefWidth="66.0" text="Simpan" textFill="#29aa16">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="1186.0" layoutY="340.0" mnemonicParsing="false" onAction="#deleteLastEntry" prefHeight="25.0" prefWidth="66.0" text="Delete" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="bulanField" alignment="CENTER" layoutX="981.0" layoutY="80.0" prefHeight="30.0" prefWidth="90.0" promptText="Bulan" />
+    </children>
+</AnchorPane>

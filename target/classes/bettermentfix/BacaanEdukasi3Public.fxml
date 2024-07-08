@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1290.0" style="-fx-background-color: #005335;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettermentfix.BacaanEdukasi3Controller">
+   <children>
+      <Text fill="#00e21a" layoutX="22.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Penambah Penghasilan" wrappingWidth="247.3333740234375">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Perbedaan antara berinvestasi dan menabung salah satunya adalah nilai uang yang kita punya. Dengan menabung uang kita lama kelamaan akan tergerus oleh inflasi. Inflasi membuat nilai uang kita menyusut. Namun berbeda halnya dengan investasi. Dengan berinvestasi setidaknya akan menjaga nilai uang kita terhadap barang tetap terjaga." textAlignment="JUSTIFY" wrappingWidth="1236.0">
+         <font>
+            <Font name="Arial Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#00e21a" layoutX="22.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Mengatasi Inflansi" wrappingWidth="195.9999542236328">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#00e21a" layoutX="22.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Membantu Mencapai Tujuan Finansial" wrappingWidth="386.0000762939453">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salah satu alasan utama untuk berinvestasi adalah menambah passive income, yaitu penghasilan yang tidak kamu dapatkan secara langsung. Artinya kamu masih bisa mendapatkan penghasilan walaupun kamu sedang tidak aktif bekerja. Tentunya imbal hasil yang diterima akan berbeda tergantung instrumen investasi apa yang dipilih dan jangka waktu dari produk investasi tersebut." textAlignment="JUSTIFY" wrappingWidth="1235.333251953125">
+         <font>
+            <Font name="Arial Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dalam merencanakan keuanganmu, tentunya kamu memiliki tujuan, seperti ingin mempunyai rumah, menikah, membeli mobil dan lain sebagainya. Jika hanya mengandalkan dari gaji bulanan, tujuan finansialmu mungkin akan sedikit berat atau membutuhkan waktu yang lebih lama untuk dicapai. Dengan berinvestasi, setidaknya akan membantumu dalam mempercepat mencapai tujuanmu." textAlignment="JUSTIFY" wrappingWidth="1235.333251953125">
+         <font>
+            <Font name="Arial Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="93.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beberapa Alasan Mengapa Harus Investasi Mulai dari Sekarang">
+         <font>
+            <Font name="SansSerif Bold" size="23.0" />
+         </font>
+      </Text>
+      <Line endX="1130.6666259765625" endY="7.62939453125E-6" layoutX="128.0" layoutY="60.0" startX="-103.66666412353516" startY="7.62939453125E-6" stroke="WHITE" />
+      <ImageView fitHeight="266.0" fitWidth="1236.0" layoutX="22.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bacaan%20Edukasi%203.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnBack" layoutX="1.0" layoutY="-3.0" mnemonicParsing="false" onAction="#toEdukasiPublic" rotate="180.0" style="-fx-background-color: transparent;" text="➔" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

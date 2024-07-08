@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1290.0" style="-fx-background-color: #005335;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettermentfix.BacaanEdukasi4Controller">
+   <children>
+      <Text fill="WHITE" layoutX="93.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 Tips Aman Berinvestasi bagi Anak Muda">
+         <font>
+            <Font name="SansSerif Bold" size="23.0" />
+         </font>
+      </Text>
+      <Line endX="1130.6666259765625" endY="7.62939453125E-6" layoutX="128.0" layoutY="60.0" startX="-103.66666412353516" startY="7.62939453125E-6" stroke="WHITE" />
+      <ImageView fitHeight="266.0" fitWidth="1236.0" layoutX="22.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bacaan%20Edukasi%204.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#00e21a" layoutX="22.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Tentukan tujuan dan jangka waktunya" wrappingWidth="331.3333740234375">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seperti langkah dasar, tujuan dan jangka waktu berinvestasi adalah modal penting yang harus dimiliki para investor pemula. Dengan menentukan tujuan dan jangka waktu, Anda bisa lebih fokus serta terarah mengelola portofolio yang dimiliki. Tujuan dan jangka waktu juga bisa dibarengi konteksnya, misal berinvestasi untuk dana pernikahan dalam waktu 5 tahun ke depan, atau jalan-jalan bersama keluarga 2 tahun lagi. " textAlignment="JUSTIFY" wrappingWidth="1240.0000610351562">
+         <font>
+            <Font name="Calibri Italic" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00e21a" layoutX="22.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Ketahui profil risiko yang dimiliki " wrappingWidth="291.33343505859375">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nah, ingat juga untuk tidak langsung membeli produk investasi tanpa mengetahui apa profil risiko Anda. Profil risiko sangat penting karena dapat menentukan bagaimana sikap Anda dalam memilih produk yang sesuai dengan kesanggupan mengelola keuangan. Profil risiko investor umumnya terbagi menjadi tiga, yaitu resiko rendah, sedang, dan tinggi." textAlignment="JUSTIFY" wrappingWidth="1240.0000610351562">
+         <font>
+            <Font name="Calibri Italic" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00e21a" layoutX="22.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Siapkan dana khusus tersendiri" wrappingWidth="278.6666870117188">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Setiap jenis investasi memiliki risiko tersendiri. Oleh sebab itu, investasi harus dilakukan dengan dana khusus. Terlebih lagi bagi para pemula yang masih meraba dan mempelajari bagaimana cara kerja investasi. Dana khusus tersendiri ini kerap dikenal sebagai ‘uang dingin’ yang bisa Anda gunakan untuk menjajal sepak terjang dunia investasi saat baru memulainya." textAlignment="JUSTIFY" wrappingWidth="1240.0000610351562">
+         <font>
+            <Font name="Calibri Italic" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnBack" layoutX="1.0" layoutY="-3.0" mnemonicParsing="false" onAction="#toEdukasiPublic" rotate="180.0" style="-fx-background-color: transparent;" text="➔" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Text fill="#00e21a" layoutX="22.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Menambah pengetahuan seputar investasi" wrappingWidth="365.3334350585938">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jangan bosan juga untuk terus menggali informasi dan belajar cara berinvestasi yang paling cocok dengan tujuan dan profil risiko Anda. Biasakan diri Anda untuk membaca berita seputar topik ekonomi agar mulai terbiasa dan akhirnya memahami bagaimana investasi yang sesuai dengan kebutuhan. Perkembangan berita dunia juga akan mempengaruhi investasi, khususnya Anda yang tertarik pada produk saham." textAlignment="JUSTIFY" wrappingWidth="1240.0000610351562">
+         <font>
+            <Font name="Calibri Italic" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00e21a" layoutX="22.0" layoutY="572.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Konsisten berinvestasi secara rutin" wrappingWidth="311.3334350585938">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banyak pepatah yang bilang bahwa waktu adalah teman sejati para investor. Hal itu benar adanya. Sebab waktu akan mengajarkan Anda tentang cara berinvestasi terbaik bagi diri sendiri yang nantinya juga akan membawa keuntungan besar di masa depan. Jika Anda memilih produk investasi yang berprospek cerah, maka keamanan finansial jelas bisa diwujudkan. Lakukan investasi secara rutin, misalnya setiap bulan atau minimal dengan waktu berjangka hingga tujuan investasi Anda tercapai sepenuhnya. " textAlignment="JUSTIFY" wrappingWidth="1240.0000610351562">
+         <font>
+            <Font name="Calibri Italic" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

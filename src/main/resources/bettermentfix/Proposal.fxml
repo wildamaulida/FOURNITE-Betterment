@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1300.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettermentfix.ProposalController">
+   <children>
+      <ImageView fitHeight="322.0" fitWidth="361.0" layoutX="939.0" layoutY="-31.0">
+         <image>
+            <Image url="@Vector%20Daun.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="338.0" fitWidth="295.0" layoutX="1005.0" layoutY="268.0" rotate="75.6">
+         <image>
+            <Image url="@Vector%20Daun.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="644.0" fitWidth="651.0" layoutX="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Ilustrasi%20Proposal.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="623.0" layoutX="79.0" layoutY="-1.0" opacity="0.5" stroke="TRANSPARENT" strokeType="INSIDE" width="623.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="527.0" layoutX="672.0" layoutY="12.0" stroke="TRANSPARENT" strokeType="INSIDE" width="480.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.543021023273468" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Text fill="#005335" layoutX="833.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Isi Data" underline="true" wrappingWidth="170.42129516601562">
+         <font>
+            <Font name="Arial Black" size="40.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="134.0" layoutY="137.0" smooth="false" stroke="TRANSPARENT" strokeType="OUTSIDE" style="-fx-line-spacing: 15;" text="UNGGAH DAN AJUKAN PROPOSAL" wrappingWidth="420.000020345052">
+         <font>
+            <Font name="Arial Black" size="65.0" />
+         </font>
+      </Text>
+      <Button layoutX="820.0" layoutY="472.0" mnemonicParsing="false" onAction="#handleProposalSubmit" prefHeight="43.0" prefWidth="181.0" style="-fx-background-color: #005335;" text="Kirim" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="22.0" />
+         </font>
+      </Button>
+      <HBox layoutX="685.0" layoutY="104.0" prefHeight="51.0" prefWidth="452.0" style="-fx-background-color: #ffffff; -fx-border-color: #d9d9d9; -fx-border-radius: 5; -fx-background-radius: 5;">
+         <children>
+            <TextField fx:id="namaPerusahaan" prefHeight="56.0" prefWidth="452.0" promptText="Nama Perusahaan" style="-fx-background-color: transparent;">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <HBox layoutX="684.0" layoutY="405.0" prefHeight="44.0" prefWidth="455.0" style="-fx-background-color: #ffffff; -fx-border-color: #d9d9d9; -fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <Hyperlink onAction="#handleUploadFile" prefHeight="41.0" prefWidth="471.0" text="Upload PDF" underline="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Hyperlink>
+         </children>
+         <effect>
+            <Blend />
+         </effect>
+      </HBox>
+      <HBox layoutX="686.0" layoutY="173.0" prefHeight="51.0" prefWidth="452.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #d9d9d9; -fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <TextField fx:id="namaBisnis" prefHeight="50.0" prefWidth="452.0" promptText="Nama Bisnis Hijau" style="-fx-background-color: transparent;">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutX="686.0" layoutY="238.0" prefHeight="84.0" prefWidth="452.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #d9d9d9; -fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <TextField fx:id="deskripsi" prefHeight="99.0" prefWidth="492.0" promptText="Deskripsi Bisnis" style="-fx-background-color: transparent;">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <HBox layoutX="686.0" layoutY="337.0" prefHeight="51.0" prefWidth="452.0" style="-fx-background-color: #ffffff; -fx-border-color: #d9d9d9; -fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <TextField fx:id="danaField" prefHeight="53.0" prefWidth="452.0" promptText="Dana Yang Dibutuhkan" style="-fx-background-color: transparent;">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

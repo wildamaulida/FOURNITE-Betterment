@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1290.0" style="-fx-background-color: #005335;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettermentfix.BacaanEdukasi6Controller">
+   <children>
+      <Text fill="WHITE" layoutX="93.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memahami Arti Investasi Hijau atau Green Investment">
+         <font>
+            <Font name="SansSerif Bold" size="23.0" />
+         </font>
+      </Text>
+      <Line endX="1130.6666259765625" endY="7.62939453125E-6" layoutX="128.0" layoutY="60.0" startX="-103.66666412353516" startY="7.62939453125E-6" stroke="WHITE" />
+      <ImageView fitHeight="266.0" fitWidth="1236.0" layoutX="22.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bacaan%20Edukasi%206.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#00e21a" layoutX="22.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apa itu Investasi Hijau?" wrappingWidth="263.3333435058594">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menurut OJK, investasi hijau atau green investment adalah investasi yang fokus pada aspek-aspek lingkungan (environment), sosial (social) dan tata kelola yang baik (governance). Tujuan dari investasi ini adalah untuk menjaga kelangsungan perekonomian dan kehidupan di muka bumi. Investasi hijau juga sekaligus menjadi peluang untuk turut serta memberikan manfaat bagi kehidupan sosial dan lingkungan." textAlignment="JUSTIFY" wrappingWidth="1240.0000610351562">
+         <font>
+            <Font name="Calibri Italic" size="21.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnBack" layoutX="1.0" layoutY="-3.0" mnemonicParsing="false" onAction="#toEdukasiCompany" rotate="180.0" style="-fx-background-color: transparent;" text="➔" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="22.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OECD mendefinisikan investasi hijau pada aset yang dianggap ‘hijau’, misalnya energi terbarukan perusahaan, aset pengelola dana hijau tematik, atau kredit karbon. Dalam pelaksanaannya, investasi hijau juga bisa dilakukan dalam bentuk overlay investasi, misalnya integrasi perubahan iklim atau ESG (Environtmental Social Governance) elemen dalam pendekatan investasi umum atau kepatuhan hukum SRI (Social Responsible Investment)." textAlignment="JUSTIFY" wrappingWidth="1240.0000610351562">
+         <font>
+            <Font name="Calibri Italic" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para investor dalam investasi hijau dapat memasukan dananya ke perusahaan-perusahaan yang terlibat dalam inisiatif berkelanjutan. Contohnya seperti energi terbarukan, pengurangan polusi, manajemen sampah, clean technology, atau perusahaan lain yang memiliki keterlibatan dalam pembangunan berkelanjutan. Salah satu contoh investasi hijau yang dilakukan oleh perusahaan adalah Apple yang melakukan obligasi hijau (green bonds) senilai 1,5 milliar USD. Kemudian pada tahun 2016 Apple mendapatkan penghargaan Environmental Finance berkat inisiatifnya tersebut." textAlignment="JUSTIFY" wrappingWidth="1240.0000610351562">
+         <font>
+            <Font name="Calibri Italic" size="21.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
