@@ -6,9 +6,9 @@ Betterment adalah suatu sistem perangkat lunak untuk investasi ramah lingkungan 
 3. proposal : perusahaan dapat mengajukan proposal bisnis hijau.
 4. edukasi : publik dapat melihat berbagai pengetahuan tentang bisnis hijau.
 # Teknologi yang Digunakan
-Backend: Java
-Framework: JavaFX
-Database: CSV
+Backend: Java  
+Framework: JavaFX  
+Database: CSV  
 Arsitektur: Model-View-Controller (MVC)
 # Prasyarat
 Pastikan anda sudah menginstall :
