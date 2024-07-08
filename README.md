@@ -11,7 +11,7 @@ Framework: JavaFX
 Database: CSV
 Arsitektur: Model-View-Controller (MVC)
 # Prasyarat
-PAstikan anda sudah menginstall :
+Pastikan anda sudah menginstall :
 1. Java JDK
 2. JavaFX
 # Penggunaan
