@@ -15,7 +15,7 @@ Pastikan anda sudah menginstall :
 1. Java JDK
 2. JavaFX
 # Penggunaan
-1. Investasi
+1. Investasi  
    1.1 Buka aplikasi Betterment  
    1.2 Login sebagai investor  
    1.3 Klik fitur 'Tracking'  
@@ -23,6 +23,23 @@ Pastikan anda sudah menginstall :
    1.5 Klik tombol 'beli'  
    1.6 Masukan nominal investasi  
    1.7 Klik tombol 'Investasi'  
-2. Tracking - Investor
-   2.1  
+2. Tracking - Investor  
+   2.1 Klik fitur 'Tracking'  
+   Anda dapat melihat tracking dari berbagai bisnis hijau yang ada di aplikasi Betterment
+3. Tracking - Perusahaan  
+   3.1 Log out dari aplikasi Betterment dengan cara mengklik setting dan tombol keluar  
+   3.2 login sebagai perusahaan
+   3.3 Klik fitur 'Tracking'
+   Anda dapat menambahkan nominal pemasukan bulan ini untuk di tampilkan di halaman tracking investor
+   Anda juga dapat melihat investasi yang masuk ke dalam bisnis hijau anda
+4. Proposal
+   4.1 Klik fitur 'Proposal', harus login sebagai perusahaan  
+   4.5 Masukan data proposal anda sesuai dengan kolom yang tersedia
+   4.6 Klik 'Unggah Proposal'
+   Proposal anda akan di tinjau oleh sistem Betterment.
+5. Edukasi
+   5.1 Login sebagai publik, investor, atau perusahaan
+   5.2 Klik fitur 'Edukasi'
+   5.3 Pilih artikel yang ingin anda baca
+   Anda akan di arahkan ke artikel yang anda pilih  
    
