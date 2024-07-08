@@ -16,13 +16,13 @@ Pastikan anda sudah menginstall :
 2. JavaFX
 # Penggunaan
 1. Investasi
-   1.1 Buka aplikasi Betterment
-   1.2 Login sebagai investor
-   1.3 Klik fitur 'Tracking'
-   1.4 Pilih bisnis hijau yang di inginkan
-   1.5 Klik tombol 'beli'
-   1.6 Masukan nominal investasi
-   1.7 Klik tombol 'Investasi'
+   1.1 Buka aplikasi Betterment  
+   1.2 Login sebagai investor  
+   1.3 Klik fitur 'Tracking'  
+   1.4 Pilih bisnis hijau yang di inginkan  
+   1.5 Klik tombol 'beli'  
+   1.6 Masukan nominal investasi  
+   1.7 Klik tombol 'Investasi'  
 2. Tracking - Investor
    2.1  
    
